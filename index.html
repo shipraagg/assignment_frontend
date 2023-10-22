@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Editor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+	<div class="logo">
+	<img src="logo.jpg" alt="logo" width="100" height="100">
+	</div>
+	
+	<div class="header" align="Center";>
+		<h1>CODE EDITOR</h1>
+	</div>
+
+	<h1 align="center">Assignment of Frontend developer</h1>
+	<h1 align="center">by Shipra Aggarwal</h1>
+
+    <div class="code-editor">
+        <!-- Toolbar for buttons -->
+        <div class="code-editor__toolbar">
+            <button class="code-editor__btn code-editor__btn--copy" onclick="copyCode()">Copy</button>
+            <button class="code-editor__btn code-editor__btn--save" onclick="saveCode()">Save</button>
+            <button class="code-editor__btn code-editor__btn--lock" onclick="toggleLock()">Lock</button>
+        </div>
+        <!-- Textarea for code input -->
+        <textarea id="editor" class="code-editor__textarea"></textarea>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

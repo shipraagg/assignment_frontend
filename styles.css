@@ -1,0 +1,71 @@
+body{
+	background-image:url("decent.jpg");
+	background-size:auto;
+}
+
+.header{
+	
+	height:120px;
+	color:white;
+	padding-top:5px;
+	background-color:black;
+	padding-right:120px;
+	
+ 	
+}
+.logo{
+ margin-top: 9px;
+margin-left: 9px;
+	
+  
+	float:left;
+}
+
+/* Main container for the editor */
+.code-editor {
+    width: 80%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: blue;
+}
+
+/* Toolbar styling */
+.code-editor__toolbar {
+    display: flex;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Button default styling */
+.code-editor__btn {
+    padding: 5px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+
+/* Hover effect for buttons */
+.code-editor__btn:hover {
+    background-color: #0056b3;
+}
+
+/* Textarea styling */
+.code-editor__textarea {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    font-family: 'Courier New', monospace;
+    resize: vertical;
+    border: none;
+    outline: none;
+}
+
+/* Indentation support */
+.code-editor__textarea {
+    tab-size: 4;
+    -moz-tab-size: 4;
+}
